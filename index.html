@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS Training</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/script.js"></script>
+  </head>
+
+  <body id="body">
+    <div class="header">
+      <h1 id="heading">Javascript Test</h1>
+      <p>by Stefanee Chua</p>
+    </div>
+
+    <!-- <div class="container">
+      <button onclick="changeText()" type="button" name="button">Click</button>
+    </div> -->
+
+    <div class="container">
+      <h1 id="time"></h1>
+      <h2 id=""></h2>
+      <button onclick="showDate()" ondblclick="clearDate()" type="button" name="button">Show Date</button>
+    </div>
+
+    <div class="container">
+      <form name="testForm" action="index.html" method="post" onsubmit="return validateForm()">
+        <div class="">
+          <label for="">First Name</label>
+          <input type="text" name="firstName" id="firstName" />
+        </div>
+        <div>
+          <label for="">Last Name</label>
+          <input type="text" name="lastName" id="lastName" />
+        </div>
+        <div>
+          <br />
+          <label for="">Background</label>
+          <select name="background" id="background" onchange="changeBackground(this)">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+          </select>
+        </div>
+        <br />
+        <input type="submit" name="" value="submit" />
+      </form>
+    </div>
+
+  </body>
+</html>
